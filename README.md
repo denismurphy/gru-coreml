@@ -1,4 +1,4 @@
-# GRU-CoreML: An iOS-compatible recurrent neural network for dynamic prediction
+# GRU-CoreML: An iOS-compatible gated recurrent unit neural network for dynamic prediction
 
 ## Description
 
