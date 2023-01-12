@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains an implementation of a GRU neural network that can be used in iOS apps with Core ML. The model is trained on user data collected while the app is running, making it more accurate over time. The model is able to predict the next enum value based on previous selected enum values and time.
+This repository contains an implementation of a GRU neural network that can be used in iOS apps with Core ML. The model is trained on user data collected while the app is running (all training on device), making it more accurate over time. The model is able to predict the next enum value based on previous selected enum values and time.
 
 ## Requirements
 
