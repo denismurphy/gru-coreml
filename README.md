@@ -1,58 +1,58 @@
-# GRU-CoreML: An CoreML compatible gated recurrent unit neural network for dynamic prediction
+# 🧠 GRU-CoreML: Dynamic Prediction with Core ML Compatible GRU Neural Network
 
-## Description
+## 🚀 Description
 
-This repository contains an implementation of a GRU neural network that can be used in iOS apps with Core ML. The model is trained on user data collected while the app is running (all training on device), making it more accurate over time. The model is able to predict the next enum value based on previous selected enum values and time.
+Welcome to GRU-CoreML! This repository houses an implementation of a Gated Recurrent Unit (GRU) neural network, specifically designed for iOS apps using Core ML. What makes this model unique is its ability to learn and improve over time by training on user data collected during app usage. The model specializes in predicting the next enum value based on previously selected enum values and time.
 
-## Requirements
+## 🛠️ Requirements
 
--   iOS 13.0+
--   Xcode 11+
--   Python 3+
--   Keras 2.4+
--   Tensorflow 2+
--   Coremltools 4+
+- iOS 13.0+
+- Xcode 11+
+- Python 3+
+- Keras 2.4+
+- TensorFlow 2+
+- Coremltools 4+
 
-## Usage
+## 🔧 Usage
 
-1.  Clone the repository:
+1. Clone the repository:
+   ```
+   git clone https://github.com/denismurphy/gru-coreml.git
+   ```
 
-`git clone https://github.com/denismurphy/gru-coreml.git` 
+2. Open the project in Xcode and add the Core ML and Core Data frameworks.
 
-2.  Open the project in Xcode and add the Core ML and Core Data frameworks.
-    
-3.  Use the provided Python script to train the model on your data.
-    
-4.  Convert the trained model to Core ML format using the coremltools package.
-    
-5.  Drag and drop the generated .mlmodel file into your Xcode project.
-    
-6.  Use the model in your iOS app to make predictions.
-    
-7.  Collect data and update the model while the app is running.
-    
+3. Use the provided Python script to train the model on your data.
 
-## Limitations
+4. Convert the trained model to Core ML format using the coremltools package.
 
--   The model is only able to predict the next enum value based on previous selected enum values and time.
+5. Drag and drop the generated .mlmodel file into your Xcode project.
 
--   The accuracy of the model depends on the quality and quantity of the data used to train it.
--   The model is only compatible with iOS 13.0 and above.
+6. Integrate the model in your iOS app for predictions.
 
-## Future Work
+7. Implement data collection and model updating mechanisms for continuous improvement.
 
--   Implementing LSTM in addition to GRU to see which one gives better results
--   Experiment with different architectures like stacked layers, bidirectional layers
--   Implementing more sophisticated data collection and processing methods to improve the model's performance.
+## ⚠️ Limitations
 
-## Contributions
+- The model is currently limited to predicting the next enum value based on previous enum values and time.
+- Model accuracy is dependent on the quality and quantity of training data.
+- Compatible only with iOS 13.0 and above.
 
-All contributions are welcome, feel free to submit a pull request or open an issue if you have any suggestions or find any bugs.
+## 🔮 Future Work
 
-## Authors
+- [ ] Implement LSTM alongside GRU for performance comparison
+- [ ] Experiment with advanced architectures (e.g., stacked layers, bidirectional layers)
+- [ ] Develop more sophisticated data collection and processing methods
+- [ ] Explore multi-task learning capabilities
 
--   **Denis Murphy**
+## 🤝 Contributions
 
-## License
+We welcome all contributions! Feel free to submit a pull request or open an issue for suggestions or bug reports.
 
-This project is licensed under the MIT License.
+## 👨‍💻 Authors
+
+- **Denis Murphy**
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
