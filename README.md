@@ -1,8 +1,8 @@
-# 🧠 GRU-CoreML: Dynamic Prediction with Core ML Compatible GRU Neural Network
+# 🧠 GRU-CoreML: An CoreML compatible gated recurrent unit neural network for dynamic prediction
 
 ## 🚀 Description
 
-Welcome to GRU-CoreML! This repository houses an implementation of a Gated Recurrent Unit (GRU) neural network, specifically designed for iOS apps using Core ML. What makes this model unique is its ability to learn and improve over time by training on user data collected during app usage. The model specializes in predicting the next enum value based on previously selected enum values and time.
+This repository houses an implementation of a Gated Recurrent Unit (GRU) neural network, specifically designed for iOS apps using Core ML. What makes this model unique is its ability to learn and improve over time by training on user data collected during app usage. The model specializes in predicting the next enum value based on previously selected enum values and time.
 
 ## 🛠️ Requirements
 
