@@ -45,14 +45,6 @@ This repository houses an implementation of a Gated Recurrent Unit (GRU) neural 
 - [ ] Develop more sophisticated data collection and processing methods
 - [ ] Explore multi-task learning capabilities
 
-## 🤝 Contributions
-
-We welcome all contributions! Feel free to submit a pull request or open an issue for suggestions or bug reports.
-
-## 👨‍💻 Authors
-
-- **Denis Murphy**
-
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
